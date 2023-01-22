@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade 02 - 03</title>
+</head>
+<body>
+
+    <header>
+
+        <ul>
+            <li><a href="Atividade02-01.html">Atividade 02 - Exercício 01</a></li>
+            <li><a href="Atividade02-02.html">Atividade 02 - Exercício 02</a></li>
+            <li><a href="Atividade02-03.html">Atividade 02 - Exercício 03</a></li>
+            <li><a href="Atividade02-04.html">Atividade 02 - Exercício 04</a></li>
+            <li><a href="Atividade02-05.html">Atividade 02 - Exercício 05</a></li>
+        </ul>
+
+    </header>
+
+    <main>
+        <h1>Atividade 02 - 03</h1>
+
+        <p class="enunsiado">
+
+            Crie três variáveis, na primeira variável coloque o total de uma
+            compra, por exemplo 149.90. Na segunda variável coloque a
+            quantidade de parcelas, por exemplo 2. Na terceira variável coloque
+            o valor da parcela. Apresente no documento html as seguintes
+            informações:
+            <br>
+            <br>
+            "O valor total da compra foi R$_,_"
+            "Forma de pagamento: _x de R$_,_"
+
+        </p>
+    </main>
+
+    <script>
+
+        const compra = 198.80;
+        const parcelas = 8;
+        const valorParcela = (compra / parcelas);
+
+        document.write(`O valor total da compra foi de R$ ${compra}. <br> 
+        Forma de pagamento: ${parcelas}x de R$ ${valorParcela}`);
+
+    </script>
+</body>
+</html>
