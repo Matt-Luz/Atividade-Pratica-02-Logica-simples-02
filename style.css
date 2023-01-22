@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(244, 255, 250);
 }
 
 ul{
@@ -17,24 +17,27 @@ li{
 
 li a{
     text-decoration: none;
-    background-color: rgb(105, 11, 11);
+    background-color: rgb(139, 0, 0);
     color: white;
     height: 100px;
     width: 100px;
     padding: 10px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 li a:hover{
-    background-color: green;
+    background-color: rgb(210, 105, 30);
 }
 
 h1{
     text-align: center;
     margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .enunciado{
-    font-size: 20px;
+    font-size: 19px;
     padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
